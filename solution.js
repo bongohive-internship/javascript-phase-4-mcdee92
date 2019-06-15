@@ -1,5 +1,5 @@
 //1. recipe object 
-/*class Recipe {
+class Recipe {
     constructor(title, servings, ingredients) {
         this.title = title;
         this.servings = servings;
@@ -17,8 +17,9 @@
 
 var recipe = new Recipe('Rice With Peanut Butter', 4, ['rice', 'sugar', 'salt', 'peanut butter', 'milk']);
 recipe.printRecipe();
-*/
+
 //------------------------------------------
+
 //2. book object
 class Book {
     constructor(title, author, alreadyRead) {
